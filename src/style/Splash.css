@@ -1,0 +1,23 @@
+#splash{
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+}
+
+#splash .button{
+    border: 1px solid #4CAF50 !important;
+    border-radius: 0px;
+    color: #3ADB76;
+    height: 48px;
+    padding: 0 30px;
+    
+}
+
+#splash .button:hover{
+    border: 1px solid #157539 !important;
+    color: #157539;    
+}
+
+#buttonText{
+    text-transform: capitalize;
+}
