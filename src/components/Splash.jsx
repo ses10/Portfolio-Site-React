@@ -16,12 +16,6 @@ class Splash extends React.Component {
                         width:0,
                         renderCanvas:false
         };
-        this.handlerClick = this.handlerClick.bind(this);
-    }
-
-    handlerClick(){
-        //console.log(this.state.height);
-        //console.log(this.state.width);
     }
     
     componentDidMount(){
@@ -51,7 +45,7 @@ class Splash extends React.Component {
                         <Typography variant="h5">Software Engineer</Typography>
                     </Box>
                     <Box marginTop={7}>
-                        <Button className="button" onClick={this.handlerClick} ><Typography variant="button" id="buttonText">Resume</Typography></Button>
+                        <Button className="button" href="../assets/resume.pdf" ><Typography variant="button" id="buttonText">Resume</Typography></Button>
                     </Box>
                 </Grid>
             </div>
